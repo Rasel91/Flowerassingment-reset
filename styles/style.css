@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+
+}
+
+.logo {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.logo-item {
+    color: rgb(202, 133, 3);
+}
+
+.menu-container {
+    height: 120px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #19363f;
+}
+
+.menus>li>a {
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.menus {
+
+    display: flex;
+
+}
+
+.menuf {
+    margin: 200px;
+    padding: 50px;
+}
+
+/* ==========bannner section css start */
+.common-btn {
+    border: none;
+    border-radius: 30px;
+    background: #E55473;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.banner_bg {
+    background-color: rgb(250, 209, 209);
+    margin-bottom: 80px;
+
+}
+
+.banner_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.banner-text>h1 {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: start;
+    line-height: normal;
+}
+
+.banner-text {
+    margin-top: 20px;
+    width: 50%;
+    text-align: start;
+}
+
+.banner-text>p {
+
+    text-align: start;
+}
+
+.baner_btn {
+    margin-top: 10px;
+}
+
+/* .banner-img {
+    height: 80%;
+
+} */
+
+/* ===========Our Featured Flowers========= */
+.featured,
+h1,
+p {
+
+    text-align: center;
+    padding: 10px;
+}
+
+.featured>h1 {
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.featured_gallary {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feat_img {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 50px 50px 0px 50px;
+}
+
+.feat_img1 {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 50px 50px 0px 50px;
+}
+
+.feat_img2 {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 50px 50px 0px 50px;
+
+}
+
+.featured_title {
+    margin-top: 20px;
+    margin-left: 30%;
+    text-decoration: underline;
+}
