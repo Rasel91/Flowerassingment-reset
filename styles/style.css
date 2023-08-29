@@ -112,7 +112,7 @@ h1,
 p {
 
     text-align: center;
-    padding: 10px;
+    padding: 6px;
 }
 
 .featured>h1 {
@@ -239,12 +239,13 @@ p {
 
 /* ===== footer  css start ======== */
 footer {
+    margin-top: 50px;
     background-color: #19363f;
 }
 
 .f_text {
     text-align: center;
-    margin: 50px;
+    /* margin: 50px; */
     color: aliceblue;
     padding: 80px;
 
@@ -257,6 +258,10 @@ footer {
 .footer_shop {
 
     color: #E55473;
+}
+
+small {
+    margin-top: 10px;
 }
 
 /* ===== footer  css end======== */
