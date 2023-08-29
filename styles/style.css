@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 li {
@@ -51,9 +52,9 @@ li {
 /* ==========bannner section css start */
 .common-btn {
     border: none;
-    border-radius: 30px;
+    border-radius: 8px;
     background: #E55473;
-    padding: 10px;
+    padding: 20px;
     color: aliceblue;
     font-size: 18px;
     cursor: pointer;
@@ -233,14 +234,25 @@ p {
 /* =====letest_deals css end======== */
 
 /* ===== footer  css start ======== */
+footer {
+    background-color: #19363f;
+}
+
 .f_text {
     text-align: center;
-    width: 1922px;
-    height: 449px;
-    flex-shrink: 0;
     margin: 50px;
     color: aliceblue;
-    background-color: #19363f;
+    padding: 80px;
+
+}
+
+.footer_tt {
+    font-size: 48px;
+}
+
+.footer_shop {
+
+    color: #E55473;
 }
 
 /* ===== footer  css end======== */
