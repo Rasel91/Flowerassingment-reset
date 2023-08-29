@@ -155,3 +155,30 @@ p {
     margin-left: 30%;
     text-decoration: underline;
 }
+
+.hot_del_off {
+    color: #c40b86;
+}
+
+.hot_deltext {
+    text-align: center;
+    padding-right: 130px;
+}
+
+.hot_deltext>h1 {
+    font-size: 40px;
+
+    font-weight: 800;
+}
+
+.hot_del {
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
