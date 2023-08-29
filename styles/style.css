@@ -38,6 +38,10 @@ li {
     color: aliceblue;
 }
 
+.menus>li>a:hover {
+    background: #02912d;
+}
+
 .menus {
 
     display: flex;
