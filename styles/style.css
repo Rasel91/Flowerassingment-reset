@@ -100,7 +100,8 @@ li {
 
 } */
 
-/* ===========Our Featured Flowers========= */
+/* ===========Our Featured Flowers css start========= */
+
 .featured,
 h1,
 p {
@@ -121,7 +122,9 @@ p {
 
 .featured_gallary {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
+    gap: 20px;
     align-items: center;
 }
 
@@ -156,6 +159,17 @@ p {
     text-decoration: underline;
 }
 
+/* ===========Our Featured Flowers css end ========= */
+
+/* instagram css start */
+.instagram {
+    padding-bottom: 150px;
+}
+
+/* instagram css end */
+
+/* ===========hot_del css start ========= */
+
 .hot_del_off {
     color: #c40b86;
 }
@@ -182,3 +196,51 @@ p {
     background: rgba(229, 84, 115, 0.05);
 
 }
+
+/* ===========hot_del css end ========= */
+
+
+/* ======letest_deals css start ========*/
+.letest_deals {
+    text-align: center;
+    background-image: url(../FlowerAsset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 10px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 120px 270px;
+}
+
+.deals-input {
+    border: none;
+    width: 700px;
+    height: 64px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.sub {
+    width: 150px;
+    height: 64px;
+    font-size: 26px;
+    border-radius: 8px;
+    background: #E55473;
+    color: aliceblue;
+    border: none;
+}
+
+/* =====letest_deals css end======== */
+
+/* ===== footer  css start ======== */
+.f_text {
+    text-align: center;
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    margin: 50px;
+    color: aliceblue;
+    background-color: #19363f;
+}
+
+/* ===== footer  css end======== */
